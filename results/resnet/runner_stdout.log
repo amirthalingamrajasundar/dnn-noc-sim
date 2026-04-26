@@ -1,0 +1,9 @@
+Completed runs: 15
+Successful metric parses: 15
+Output directory: /home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/resnet
+- /home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/resnet/runs.csv
+- /home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/resnet/runs_aggregated.csv
+- /home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/resnet/summary.json
+
+
+[stderr]

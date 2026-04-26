@@ -1,0 +1,4094 @@
+{
+  "model": "vgg",
+  "num_nodes": 64,
+  "mapping_mode": "strict_tiled_spatial",
+  "memory_nodes": [
+    0,
+    7,
+    56,
+    63
+  ],
+  "memory_node": 63,
+  "max_sim_tiles_per_layer": 32,
+  "phase_cycles": [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    392,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "layers": [
+    {
+      "name": "features.0",
+      "kind": "conv",
+      "work_items": 65536,
+      "ops_per_item": 27,
+      "actual_tiles": 1024,
+      "sim_tiles": 32,
+      "tiles_per_phase": 32,
+      "weight_elems": 1728
+    },
+    {
+      "name": "features.2",
+      "kind": "pool",
+      "work_items": 16384,
+      "ops_per_item": 4,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 0
+    },
+    {
+      "name": "features.3",
+      "kind": "conv",
+      "work_items": 32768,
+      "ops_per_item": 576,
+      "actual_tiles": 512,
+      "sim_tiles": 32,
+      "tiles_per_phase": 16,
+      "weight_elems": 73728
+    },
+    {
+      "name": "features.5",
+      "kind": "pool",
+      "work_items": 8192,
+      "ops_per_item": 4,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 0
+    },
+    {
+      "name": "features.6",
+      "kind": "conv",
+      "work_items": 16384,
+      "ops_per_item": 1152,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 294912
+    },
+    {
+      "name": "features.8",
+      "kind": "conv",
+      "work_items": 16384,
+      "ops_per_item": 2304,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 589824
+    },
+    {
+      "name": "features.10",
+      "kind": "pool",
+      "work_items": 4096,
+      "ops_per_item": 4,
+      "actual_tiles": 64,
+      "sim_tiles": 32,
+      "tiles_per_phase": 2,
+      "weight_elems": 0
+    },
+    {
+      "name": "features.11",
+      "kind": "conv",
+      "work_items": 8192,
+      "ops_per_item": 2304,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 1179648
+    },
+    {
+      "name": "features.13",
+      "kind": "conv",
+      "work_items": 8192,
+      "ops_per_item": 4608,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 2359296
+    },
+    {
+      "name": "features.15",
+      "kind": "pool",
+      "work_items": 2048,
+      "ops_per_item": 4,
+      "actual_tiles": 32,
+      "sim_tiles": 32,
+      "tiles_per_phase": 1,
+      "weight_elems": 0
+    },
+    {
+      "name": "features.16",
+      "kind": "conv",
+      "work_items": 2048,
+      "ops_per_item": 4608,
+      "actual_tiles": 32,
+      "sim_tiles": 32,
+      "tiles_per_phase": 1,
+      "weight_elems": 2359296
+    },
+    {
+      "name": "features.18",
+      "kind": "conv",
+      "work_items": 2048,
+      "ops_per_item": 4608,
+      "actual_tiles": 32,
+      "sim_tiles": 32,
+      "tiles_per_phase": 1,
+      "weight_elems": 2359296
+    },
+    {
+      "name": "features.20",
+      "kind": "pool",
+      "work_items": 512,
+      "ops_per_item": 4,
+      "actual_tiles": 8,
+      "sim_tiles": 8,
+      "tiles_per_phase": 1,
+      "weight_elems": 0
+    },
+    {
+      "name": "avgpool",
+      "kind": "pool",
+      "work_items": 25088,
+      "ops_per_item": 4,
+      "actual_tiles": 392,
+      "sim_tiles": 32,
+      "tiles_per_phase": 13,
+      "weight_elems": 0
+    },
+    {
+      "name": "classifier.0",
+      "kind": "fc",
+      "work_items": 4096,
+      "ops_per_item": 25088,
+      "actual_tiles": 64,
+      "sim_tiles": 32,
+      "tiles_per_phase": 2,
+      "weight_elems": 102760448
+    },
+    {
+      "name": "classifier.3",
+      "kind": "fc",
+      "work_items": 4096,
+      "ops_per_item": 4096,
+      "actual_tiles": 64,
+      "sim_tiles": 32,
+      "tiles_per_phase": 2,
+      "weight_elems": 16777216
+    },
+    {
+      "name": "classifier.6",
+      "kind": "fc",
+      "work_items": 10,
+      "ops_per_item": 4096,
+      "actual_tiles": 1,
+      "sim_tiles": 1,
+      "tiles_per_phase": 1,
+      "weight_elems": 40960
+    }
+  ],
+  "phases": [
+    {
+      "name": "features.0_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.0_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "features.2_tile0",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile1",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile2",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile3",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile4",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile5",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile6",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile7",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile8",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile9",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile10",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile11",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile12",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile13",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile14",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile15",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile16",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile17",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile18",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile19",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile20",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile21",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile22",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile23",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile24",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile25",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile26",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile27",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile28",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile29",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile30",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.2_tile31",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 164,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.3_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.3_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "features.5_tile0",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile1",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile2",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile3",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile4",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile5",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile6",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile7",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile8",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile9",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile10",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile11",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile12",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile13",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile14",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile15",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile16",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile17",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile18",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile19",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile20",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile21",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile22",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile23",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile24",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile25",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile26",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile27",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile28",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile29",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile30",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.5_tile31",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 312,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.6_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.6_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.8_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "features.10_tile0",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile1",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile2",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile3",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile4",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile5",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile6",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile7",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile8",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile9",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile10",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile11",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile12",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile13",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile14",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile15",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile16",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile17",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile18",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile19",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile20",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile21",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile22",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile23",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile24",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile25",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile26",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile27",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile28",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile29",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile30",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.10_tile31",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "features.11_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.11_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.13_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "features.15_tile0",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile1",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile2",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile3",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile4",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile5",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile6",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile7",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile8",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile9",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile10",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile11",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile12",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile13",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile14",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile15",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile16",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile17",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile18",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile19",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile20",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile21",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile22",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile23",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile24",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile25",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile26",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile27",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile28",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile29",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile30",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.15_tile31",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 64,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.16_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.18_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 19,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.20_tile0",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.20_tile1",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.20_tile2",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.20_tile3",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.20_tile4",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.20_tile5",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.20_tile6",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "features.20_tile7",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "avgpool_tile0",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile1",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile2",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile3",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile4",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile5",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile6",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile7",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile8",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile9",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile10",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile11",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile12",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile13",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile14",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile15",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile16",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile17",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile18",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile19",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile20",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile21",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile22",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile23",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile24",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile25",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile26",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile27",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile28",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile29",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "avgpool_tile30",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 97,
+      "actual_tiles_covered": 13
+    },
+    {
+      "name": "classifier.0_tile0",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile1",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile2",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile3",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile4",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile5",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile6",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile7",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile8",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile9",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile10",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile11",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile12",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile13",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile14",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile15",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile16",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile17",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile18",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile19",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile20",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile21",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile22",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile23",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile24",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile25",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile26",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile27",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile28",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile29",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile30",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.0_tile31",
+      "kind": "fc",
+      "cycles": 392,
+      "edge_count": 52,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile0",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile1",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile2",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile3",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile4",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile5",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile6",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile7",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile8",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile9",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile10",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile11",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile12",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile13",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile14",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile15",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile16",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile17",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile18",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile19",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile20",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile21",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile22",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile23",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile24",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile25",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile26",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile27",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile28",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile29",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile30",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.3_tile31",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 2
+    },
+    {
+      "name": "classifier.6_tile0",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    }
+  ],
+  "trace_file": "/home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/traces/vgg_trace.txt"
+}

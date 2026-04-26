@@ -1,0 +1,59 @@
+{
+  "models": [
+    "lenet",
+    "vgg",
+    "resnet"
+  ],
+  "topologies": [
+    "mesh",
+    "torus",
+    "flatfly"
+  ],
+  "trace_source": "pytorch-strict",
+  "rates": [
+    0.006
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "seed_start": 1,
+  "num_repeats": 5,
+  "packet_sizes": [
+    4
+  ],
+  "vc_buf_sizes": [
+    "topology_default"
+  ],
+  "routing_functions": [
+    "topology_default"
+  ],
+  "max_sim_tiles_per_layer": 32,
+  "hardware_profile": {
+    "name": "fixed_8x8_mesh_v1",
+    "topology": "mesh",
+    "k": 8,
+    "n": 2,
+    "xr": 1,
+    "num_nodes": 64,
+    "routing_function": "dim_order",
+    "num_vcs": 4,
+    "vc_buf_size": 8,
+    "router_pipeline_stages": 4,
+    "bits_per_flit": 64,
+    "memory_nodes": [
+      0,
+      7,
+      56,
+      63
+    ]
+  },
+  "combined_runs_csv": "/home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/combined_runs.csv",
+  "combined_runs_averaged_csv": "/home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/combined_runs_averaged.csv",
+  "summary_csv": "/home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/summary.csv",
+  "insights_md": "/home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/insights.md",
+  "plots_dir": "/home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/plots"
+}

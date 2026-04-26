@@ -1,0 +1,9 @@
+Completed runs: 15
+Successful metric parses: 15
+Output directory: /home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/lenet
+- /home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/lenet/runs.csv
+- /home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/lenet/runs_aggregated.csv
+- /home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/lenet/summary.json
+
+
+[stderr]

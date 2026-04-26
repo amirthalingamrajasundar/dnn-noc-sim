@@ -1,0 +1,10 @@
+model,topology,best_latency,best_accepted_flit_rate,saturation_rate_est
+lenet,mesh,41.428340,0.024045,0.006000
+lenet,torus,41.292520,0.024232,0.006000
+lenet,flatfly,29.034280,0.024123,0.006000
+vgg,mesh,28.364020,0.024239,0.006000
+vgg,torus,27.435080,0.024239,0.006000
+vgg,flatfly,18.650740,0.024250,0.006000
+resnet,mesh,24.696860,0.024150,0.006000
+resnet,torus,23.678880,0.024152,0.006000
+resnet,flatfly,16.938060,0.024138,0.006000

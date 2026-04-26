@@ -1,0 +1,7560 @@
+{
+  "model": "resnet",
+  "num_nodes": 64,
+  "mapping_mode": "strict_tiled_spatial",
+  "memory_nodes": [
+    0,
+    7,
+    56,
+    63
+  ],
+  "memory_node": 63,
+  "max_sim_tiles_per_layer": 32,
+  "phase_cycles": [
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    144,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "layers": [
+    {
+      "name": "conv1",
+      "kind": "conv",
+      "work_items": 65536,
+      "ops_per_item": 27,
+      "actual_tiles": 1024,
+      "sim_tiles": 32,
+      "tiles_per_phase": 32,
+      "weight_elems": 1728
+    },
+    {
+      "name": "layer1.0.conv1",
+      "kind": "conv",
+      "work_items": 65536,
+      "ops_per_item": 576,
+      "actual_tiles": 1024,
+      "sim_tiles": 32,
+      "tiles_per_phase": 32,
+      "weight_elems": 36864
+    },
+    {
+      "name": "layer1.0.conv2",
+      "kind": "conv",
+      "work_items": 65536,
+      "ops_per_item": 576,
+      "actual_tiles": 1024,
+      "sim_tiles": 32,
+      "tiles_per_phase": 32,
+      "weight_elems": 36864
+    },
+    {
+      "name": "layer1.0_merge",
+      "kind": "res_merge",
+      "work_items": 65536,
+      "ops_per_item": 2,
+      "actual_tiles": 1024,
+      "sim_tiles": 32,
+      "tiles_per_phase": 32,
+      "weight_elems": 0
+    },
+    {
+      "name": "layer1.1.conv1",
+      "kind": "conv",
+      "work_items": 65536,
+      "ops_per_item": 576,
+      "actual_tiles": 1024,
+      "sim_tiles": 32,
+      "tiles_per_phase": 32,
+      "weight_elems": 36864
+    },
+    {
+      "name": "layer1.1.conv2",
+      "kind": "conv",
+      "work_items": 65536,
+      "ops_per_item": 576,
+      "actual_tiles": 1024,
+      "sim_tiles": 32,
+      "tiles_per_phase": 32,
+      "weight_elems": 36864
+    },
+    {
+      "name": "layer1.1_merge",
+      "kind": "res_merge",
+      "work_items": 65536,
+      "ops_per_item": 2,
+      "actual_tiles": 1024,
+      "sim_tiles": 32,
+      "tiles_per_phase": 32,
+      "weight_elems": 0
+    },
+    {
+      "name": "layer2.0.conv1",
+      "kind": "conv",
+      "work_items": 32768,
+      "ops_per_item": 576,
+      "actual_tiles": 512,
+      "sim_tiles": 32,
+      "tiles_per_phase": 16,
+      "weight_elems": 73728
+    },
+    {
+      "name": "layer2.0.conv2",
+      "kind": "conv",
+      "work_items": 32768,
+      "ops_per_item": 1152,
+      "actual_tiles": 512,
+      "sim_tiles": 32,
+      "tiles_per_phase": 16,
+      "weight_elems": 147456
+    },
+    {
+      "name": "layer2.0.downsample.0",
+      "kind": "conv",
+      "work_items": 32768,
+      "ops_per_item": 64,
+      "actual_tiles": 512,
+      "sim_tiles": 32,
+      "tiles_per_phase": 16,
+      "weight_elems": 8192
+    },
+    {
+      "name": "layer2.0_merge",
+      "kind": "res_merge",
+      "work_items": 32768,
+      "ops_per_item": 2,
+      "actual_tiles": 512,
+      "sim_tiles": 32,
+      "tiles_per_phase": 16,
+      "weight_elems": 0
+    },
+    {
+      "name": "layer2.1.conv1",
+      "kind": "conv",
+      "work_items": 32768,
+      "ops_per_item": 1152,
+      "actual_tiles": 512,
+      "sim_tiles": 32,
+      "tiles_per_phase": 16,
+      "weight_elems": 147456
+    },
+    {
+      "name": "layer2.1.conv2",
+      "kind": "conv",
+      "work_items": 32768,
+      "ops_per_item": 1152,
+      "actual_tiles": 512,
+      "sim_tiles": 32,
+      "tiles_per_phase": 16,
+      "weight_elems": 147456
+    },
+    {
+      "name": "layer2.1_merge",
+      "kind": "res_merge",
+      "work_items": 32768,
+      "ops_per_item": 2,
+      "actual_tiles": 512,
+      "sim_tiles": 32,
+      "tiles_per_phase": 16,
+      "weight_elems": 0
+    },
+    {
+      "name": "layer3.0.conv1",
+      "kind": "conv",
+      "work_items": 16384,
+      "ops_per_item": 1152,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 294912
+    },
+    {
+      "name": "layer3.0.conv2",
+      "kind": "conv",
+      "work_items": 16384,
+      "ops_per_item": 2304,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 589824
+    },
+    {
+      "name": "layer3.0.downsample.0",
+      "kind": "conv",
+      "work_items": 16384,
+      "ops_per_item": 128,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 32768
+    },
+    {
+      "name": "layer3.0_merge",
+      "kind": "res_merge",
+      "work_items": 16384,
+      "ops_per_item": 2,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 0
+    },
+    {
+      "name": "layer3.1.conv1",
+      "kind": "conv",
+      "work_items": 16384,
+      "ops_per_item": 2304,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 589824
+    },
+    {
+      "name": "layer3.1.conv2",
+      "kind": "conv",
+      "work_items": 16384,
+      "ops_per_item": 2304,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 589824
+    },
+    {
+      "name": "layer3.1_merge",
+      "kind": "res_merge",
+      "work_items": 16384,
+      "ops_per_item": 2,
+      "actual_tiles": 256,
+      "sim_tiles": 32,
+      "tiles_per_phase": 8,
+      "weight_elems": 0
+    },
+    {
+      "name": "layer4.0.conv1",
+      "kind": "conv",
+      "work_items": 8192,
+      "ops_per_item": 2304,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 1179648
+    },
+    {
+      "name": "layer4.0.conv2",
+      "kind": "conv",
+      "work_items": 8192,
+      "ops_per_item": 4608,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 2359296
+    },
+    {
+      "name": "layer4.0.downsample.0",
+      "kind": "conv",
+      "work_items": 8192,
+      "ops_per_item": 256,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 131072
+    },
+    {
+      "name": "layer4.0_merge",
+      "kind": "res_merge",
+      "work_items": 8192,
+      "ops_per_item": 2,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 0
+    },
+    {
+      "name": "layer4.1.conv1",
+      "kind": "conv",
+      "work_items": 8192,
+      "ops_per_item": 4608,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 2359296
+    },
+    {
+      "name": "layer4.1.conv2",
+      "kind": "conv",
+      "work_items": 8192,
+      "ops_per_item": 4608,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 2359296
+    },
+    {
+      "name": "layer4.1_merge",
+      "kind": "res_merge",
+      "work_items": 8192,
+      "ops_per_item": 2,
+      "actual_tiles": 128,
+      "sim_tiles": 32,
+      "tiles_per_phase": 4,
+      "weight_elems": 0
+    },
+    {
+      "name": "avgpool",
+      "kind": "pool",
+      "work_items": 512,
+      "ops_per_item": 4,
+      "actual_tiles": 8,
+      "sim_tiles": 8,
+      "tiles_per_phase": 1,
+      "weight_elems": 0
+    },
+    {
+      "name": "fc",
+      "kind": "fc",
+      "work_items": 10,
+      "ops_per_item": 512,
+      "actual_tiles": 1,
+      "sim_tiles": 1,
+      "tiles_per_phase": 1,
+      "weight_elems": 5120
+    }
+  ],
+  "phases": [
+    {
+      "name": "conv1_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "conv1_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 31,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv1_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0.conv2_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile0",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile1",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile2",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile3",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile4",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile5",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile6",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile7",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile8",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile9",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile10",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile11",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile12",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile13",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile14",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile15",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile16",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile17",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile18",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile19",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile20",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile21",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile22",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile23",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile24",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile25",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile26",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile27",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile28",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile29",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile30",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.0_merge_tile31",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv1_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1.conv2_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile0",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile1",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile2",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile3",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile4",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile5",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile6",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile7",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile8",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile9",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile10",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile11",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile12",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile13",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile14",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile15",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile16",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile17",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile18",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile19",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile20",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile21",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile22",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile23",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile24",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile25",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile26",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile27",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile28",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile29",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile30",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer1.1_merge_tile31",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 34,
+      "actual_tiles_covered": 32
+    },
+    {
+      "name": "layer2.0.conv1_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv1_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 424,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.conv2_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0.downsample.0_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile0",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile1",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile2",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile3",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile4",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile5",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile6",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile7",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile8",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile9",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile10",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile11",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile12",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile13",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile14",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile15",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile16",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile17",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile18",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile19",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile20",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile21",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile22",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile23",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile24",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile25",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile26",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile27",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile28",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile29",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile30",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.0_merge_tile31",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv1_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1.conv2_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 540,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile0",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile1",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile2",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile3",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile4",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile5",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile6",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile7",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile8",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile9",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile10",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile11",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile12",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile13",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile14",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile15",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile16",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile17",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile18",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile19",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile20",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile21",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile22",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile23",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile24",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile25",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile26",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile27",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile28",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile29",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile30",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer2.1_merge_tile31",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 68,
+      "actual_tiles_covered": 16
+    },
+    {
+      "name": "layer3.0.conv1_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv1_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 872,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.conv2_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0.downsample.0_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile0",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile1",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile2",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile3",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile4",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile5",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile6",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile7",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile8",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile9",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile10",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile11",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile12",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile13",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile14",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile15",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile16",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile17",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile18",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile19",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile20",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile21",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile22",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile23",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile24",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile25",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile26",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile27",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile28",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile29",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile30",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.0_merge_tile31",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv1_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1.conv2_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 1072,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile0",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile1",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile2",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile3",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile4",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile5",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile6",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile7",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile8",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile9",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile10",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile11",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile12",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile13",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile14",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile15",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile16",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile17",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile18",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile19",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile20",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile21",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile22",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile23",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile24",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile25",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile26",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile27",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile28",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile29",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile30",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer3.1_merge_tile31",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 128,
+      "actual_tiles_covered": 8
+    },
+    {
+      "name": "layer4.0.conv1_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv1_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 1024,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.conv2_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile0",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile1",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile2",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile3",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile4",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile5",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile6",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile7",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile8",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile9",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile10",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile11",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile12",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile13",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile14",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile15",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile16",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile17",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile18",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile19",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile20",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile21",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile22",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile23",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile24",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile25",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile26",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile27",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile28",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile29",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile30",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0.downsample.0_tile31",
+      "kind": "conv",
+      "cycles": 80,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile0",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile1",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile2",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile3",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile4",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile5",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile6",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile7",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile8",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile9",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile10",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile11",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile12",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile13",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile14",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile15",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile16",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile17",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile18",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile19",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile20",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile21",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile22",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile23",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile24",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile25",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile26",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile27",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile28",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile29",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile30",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.0_merge_tile31",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv1_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile0",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile1",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile2",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile3",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile4",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile5",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile6",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile7",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile8",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile9",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile10",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile11",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile12",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile13",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile14",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile15",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile16",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile17",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile18",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile19",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile20",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile21",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile22",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile23",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile24",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile25",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile26",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile27",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile28",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile29",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile30",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1.conv2_tile31",
+      "kind": "conv",
+      "cycles": 144,
+      "edge_count": 268,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile0",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile1",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile2",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile3",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile4",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile5",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile6",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile7",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile8",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile9",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile10",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile11",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile12",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile13",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile14",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile15",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile16",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile17",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile18",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile19",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile20",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile21",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile22",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile23",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile24",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile25",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile26",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile27",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile28",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile29",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile30",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "layer4.1_merge_tile31",
+      "kind": "res_merge",
+      "cycles": 80,
+      "edge_count": 32,
+      "actual_tiles_covered": 4
+    },
+    {
+      "name": "avgpool_tile0",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 16,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "avgpool_tile1",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 16,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "avgpool_tile2",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 16,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "avgpool_tile3",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 16,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "avgpool_tile4",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 16,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "avgpool_tile5",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 16,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "avgpool_tile6",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 16,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "avgpool_tile7",
+      "kind": "pool",
+      "cycles": 80,
+      "edge_count": 16,
+      "actual_tiles_covered": 1
+    },
+    {
+      "name": "fc_tile0",
+      "kind": "fc",
+      "cycles": 80,
+      "edge_count": 4,
+      "actual_tiles_covered": 1
+    }
+  ],
+  "trace_file": "/home/amirthalingam/edge_cloud_ml/dnn-noc-sim/results/traces/resnet_trace.txt"
+}

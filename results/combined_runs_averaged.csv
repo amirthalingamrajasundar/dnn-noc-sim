@@ -1,0 +1,10 @@
+model,topology,injection_rate,packet_size,vc_buf_size,routing_function,packet_latency_avg,accepted_flit_rate_avg,hops_avg
+lenet,flatfly,0.006000,4,default,default,29.034280,0.024123,2.393574
+lenet,mesh,0.006000,4,default,default,41.428340,0.024045,6.033672
+lenet,torus,0.006000,4,default,default,41.292520,0.024232,4.597984
+vgg,flatfly,0.006000,4,default,default,18.650740,0.024250,2.158204
+vgg,mesh,0.006000,4,default,default,28.364020,0.024239,4.606624
+vgg,torus,0.006000,4,default,default,27.435080,0.024239,3.852960
+resnet,flatfly,0.006000,4,default,default,16.938060,0.024138,1.848552
+resnet,mesh,0.006000,4,default,default,24.696860,0.024150,3.788642
+resnet,torus,0.006000,4,default,default,23.678880,0.024152,3.171060
